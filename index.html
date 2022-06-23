@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<title>Travis Tian</title>
+		<button id="toggle" onclick="myFunction()">dark mode</button>
+	</head>
+	<body>
+		<div class="box">
+
+		<img src="pic.jpg" alt="" class="pic">
+		<h1>Travis Tian</h1>
+		<h2>Computer Mathematics @ Carleton University</h2>
+		<p>
+		<img src="icons\location.png" width="20" height="20">
+		Toronto, ON
+		</p>
+		<p>
+		Hello, I'm Travis Tian! I am a computer mathematics student who is passionate about software development and hope to pursue a career in the tech industry after graduating.
+		</p>
+		<h3>Tech Skills</h3>
+		<p>
+		<img src="icons\python.png" alt="" class="icon">
+		<img src="icons\java.png" alt="" class="icon">
+		<img src="icons\c++.png" alt="" class="icon">
+		<img src="icons\c.png" alt="" class="icon">
+		<img src="icons\html.png" alt="" class="icon">
+		<img src="icons\css.png" alt="" class="icon">
+		<img src="icons\js.png" alt="" class="icon">
+		</p>
+		<h4>Socials</h4>
+		<p>
+		<a href="https://www.linkedin.com/in/travis-tian/"><img src="icons\linkedin.png" alt="" class="icon"></a>
+		<a href="https://github.com/yuantian99"><img src="icons\github.png" alt="" class="icon"></a>
+		<a href="mailto:yuantian99@gmail"><img src="icons\mail.png" alt="" class="icon"></a>
+		</p>
+		<br>
+		<p>
+		<b>EDUCATION</b><br><br>
+		<i>Carleton University, School of Mathematics and Statistics (09/2017 - present)</i>
+		<ul>
+			<li>Bachelor of Mathematics in Computer Mathematics, third year</li>
+			<li>GPA of 8.5/12.0 (B)</li>
+			<li>Studied fundamental courses for mathematics and computers</li>
+			<li>Received and entrance scholarship of $4000 (80-85%)</li>
+		</ul>
+		</p>
+
+		<p>
+		<b>SKILLS</b>
+		<ul>
+			<li>Python, Java, C++, C, HTML, CSS, JavaScript, MATLAB, and Microsoft Office</li>
+			<li>Bilingual in English and Mandarin and working knowledge in French</li>
+			<li>Quick learner and willing to learn new things</li>
+			<li>Strong verbal and written communication skills</li>
+			<li>Able to work effectively and efficiently in both individual and group settings</li>
+		</ul>
+		</p>
+
+		<p>
+		<b>PROJECTS</b><br><br>
+		Connect 4 Game<br>
+		Built a simple version of the popular Connect 4 game in which two users can play a game against each other on the same computer.<br>
+		Built using processing and python languages.<br><br>
+		Blackjack Game<br>
+		Built a simple version of Blackjack using python in which the user can play against a dealer (computer).<br>
+		</p>
+
+		<p>
+		<b>AWARDS & CERTIFICATES</b>
+		<ul>
+			<li>Certificate of Achievement in Core French (York Mills CI)</li>
+			<li>Ontario Secondary School Diploma (York Mills CI)</li>
+		</ul>
+		</p>
+
+		<p>
+		<b>INTERESTS</b>
+		<ul>
+			<li>Coding</li>
+			<li>Basketball, baseball, MMA, Formula 1, gym</li>
+		</ul>
+		</p>
+
+		</div>
+			 
+		<script>
+			function myFunction(){
+				var change = document.getElementById("toggle");
+				var mode = document.body;
+				mode.classList.toggle("dark");
+				if (change.innerHTML == "dark mode"){
+					change.innerHTML = "light mode";
+				}
+				else{
+					change.innerHTML = "dark mode";
+				}
+			}
+		</script>
+
+	</body>
+</html>
+
